@@ -13,5 +13,6 @@ class MainColor {
   Color blueColor = const Color(0xFF0984e3);
   Color greyColor = const Color(0xFFb2bec3);
   Color greyDarkColor = const Color(0xFF636e72);
+  Color pinkColor = const Color(0xFFe84393);
   Color purpleColor = const Color(0xFF6c5ce7);
 }
