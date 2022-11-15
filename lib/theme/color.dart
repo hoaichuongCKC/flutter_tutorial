@@ -15,4 +15,5 @@ class MainColor {
   Color greyDarkColor = const Color(0xFF636e72);
   Color pinkColor = const Color(0xFFe84393);
   Color purpleColor = const Color(0xFF6c5ce7);
+  Color onlineColor = const Color.fromARGB(255, 0, 255, 8);
 }

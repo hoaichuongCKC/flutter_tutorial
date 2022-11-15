@@ -48,4 +48,21 @@ class MainIcon {
         'assets/svg/right-arrow-direction.svg',
         fit: BoxFit.contain,
       );
+  SvgPicture get camera => SvgPicture.asset(
+        'assets/svg/camera.svg',
+        fit: BoxFit.contain,
+      );
+  SvgPicture get edit => SvgPicture.asset(
+        'assets/svg/pencil.svg',
+        fit: BoxFit.contain,
+        color: MainColor.instance.darkColor,
+      );
+  SvgPicture get search => SvgPicture.asset(
+        'assets/svg/search.svg',
+        fit: BoxFit.contain,
+      );
+  SvgPicture get cameraVideo => SvgPicture.asset(
+        'assets/svg/camera-video.svg',
+        fit: BoxFit.contain,
+      );
 }

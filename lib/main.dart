@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tutorial/pages/detail_clothing/detail_clothing_page.dart';
+import 'package:flutter_tutorial/pages/messenger/messenger_page.dart';
+import 'package:flutter_tutorial/pages/number_random/number_radom_page.dart';
 // import 'package:flutter_tutorial/pages/number_random/number_radom_page.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DetailClothingPage(),
+      home: const MessengerPage(),
     );
   }
 }
